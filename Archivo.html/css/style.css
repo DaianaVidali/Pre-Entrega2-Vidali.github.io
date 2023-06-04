@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a {
+    padding-right: 10px;
+}
+
+.hotsale{
+   display: flex;
+
+}
+.baner{
+    width: 1337px;
+
+}
+.sale {
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+    .ropa {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+        }
+
+
+.ropa .flex img {
+    width: 322px;
+    height: auto;
+}
+
+footer {
+    
+    margin-top: 20px;
+}
+footer .final {
+    margin-bottom: 30px;
+
+}
+
+.mapa h2{
+    margin-top: 50px;
+}
+
+
+footer .final-img .mg { 
+    display: inline;
+    width: 100px;
+    height: auto;
+    padding: auto;
+}
+footer .mapa .ruta {
+    display: inline;
+    padding: 3%;
+   
+    margin-left: 300px;
+    
+}
+
+/* Termina*/
+/* Empieza */
+@media (max-width: 768) {
+    main {
+    display: block;
+    }
+
+
+}
+
+main {
+    background-color: white;
+    color: black;
+    margin-top: 5%;
+   border: 5px solid white;
+   margin-bottom: 5%;
+}
+
+
+.cv h3 {
+    background-color: black;
+    color: white;
+    display: inline;
+    
+    
+}
+
+/* Termina */
+/* Empieza 
+bootstrap me cambio la letra del header
+no supe ponerla como las demas */
+
+ .carousel-container{
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    
+
+ }
+
+ header .logo {
+    text-decoration: none;
+    color: white;
+ }
+
+/* Termina */
+/* Empieza */
+.remera {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: block; 
+    gap: 10px;
+}
+.remera .prenda img {
+    width: 322px;
+    height: auto;
+}
+/* Termina */
+/* Empieza */
+
+
+main .boton{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.join h2 {
+    background-color: black;
+    color: white;
+    display: inline;
+
+}
+footer .copy { 
+    background-color: white; 
+    color: black;
+    padding: 100px 10px;
+    
+    
+
+}
+
+
+
