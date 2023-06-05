@@ -138,6 +138,15 @@ no supe ponerla como las demas */
 
 /* Termina */
 /* Empieza */
+
+
+ .navbar {
+    margin-top: 10px;
+    margin-left: 5px;
+ }
+
+
+
 .remera {
     background-color: white;
     color: black;
